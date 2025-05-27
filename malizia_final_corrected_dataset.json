@@ -1,0 +1,1434 @@
+{
+  "intents": [
+    {
+      "intent": "Signage services",
+      "patterns": [
+        "What types of services do you offer?",
+        "What type of work do you do?",
+        "Tell me about your signage options",
+        "List your offered signage services",
+        "What services do you provide in signage?",
+        "Can you describe your signage offerings?",
+        "What can you tell me about signage services?",
+        "Do you provide any services for signage services?",
+        "I'm looking for help with signage services",
+        "Can you explain your signage services offerings?",
+        "Tell me about your signage services work"
+      ],
+      "response": "We offer 3D LED signage, vehicle graphics, vinyl stickers, large format printing, and custom acrylic branding.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "type of work",
+        "Services you provide",
+        "services offered",
+        "types of servies",
+        "signage options",
+        "signage work",
+        "signage jobs",
+        "offered signage",
+        "signage services info",
+        "signage services",
+        "signage services help",
+        "signage services support",
+        "signage services options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Vehicle graphics",
+      "patterns": [
+        "Can you create custom vehicle graphics?",
+        "Do you wrap vehicles?",
+        "Tell me about car wrapping",
+        "Can you design vehicle wraps?",
+        "What do you offer for vehicle decoration?",
+        "What can you tell me about vehicle graphics?",
+        "Do you provide any services for vehicle graphics?",
+        "I'm looking for help with vehicle graphics",
+        "Can you explain your vehicle graphics?",
+        "Tell me about your vehicle graphics work"
+      ],
+      "response": "Absolutely! We provide custom wraps and graphics for all types of vehicles.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "vehicle graphics",
+        "graphics for vehicles",
+        "create custom vehicle graphics",
+        "wrap vehicles",
+        "car wraps",
+        "vehicle wrap",
+        "auto graphics",
+        "vehicle graphics info",
+        "vehicle graphics services",
+        "vehicle graphics help",
+        "vehicle graphics support",
+        "vehicle graphics options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Vinyl materials",
+      "patterns": [
+        "What materials are used for vinyl stickers?",
+        "What kind of vinyl do you use?",
+        "Describe your sticker material",
+        "Is your vinyl indoor-safe?",
+        "Are your vinyl materials durable?",
+        "What can you tell me about vinyl materials?",
+        "I'm looking for help with vinyl materials",
+        "Can you explain your vinyl materials used?",
+        "Tell me about your vinyl materials work"
+      ],
+      "response": "Our vinyl stickers are made from high-quality materials suitable for both indoor and outdoor use.",
+      "category": "Product Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "vinyl",
+        "vinyl stickers",
+        "vinyl material",
+        "vinyl sticker material",
+        "durable vinyl",
+        "vinyl quality",
+        "kind of vinyl",
+        "vinyl materials info",
+        "vinyl materials services",
+        "vinyl materials help",
+        "vinyl materials support",
+        "vinyl materials options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Large format printing",
+      "patterns": [
+        "Do you offer large format printing services?",
+        "Do you print in large sizes?",
+        "Tell me about wide-format prints",
+        "Can you print banners?",
+        "What's your capability in large printing?",
+        "What can you tell me about large format printing?",
+        "Do you provide any services for large format?",
+        "I'm looking for help with printing of large format",
+        "Can you explain your large format offerings?",
+        "Tell me about your large formatting work"
+      ],
+      "response": "Yes, we offer custom large format printing to bring attention to your brand or product.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "large format printing",
+        "format printing",
+        "printing large format",
+        "wide format",
+        "banner printing",
+        "large prints",
+        "big size printing",
+        "large format info",
+        "large format services",
+        "large format help",
+        "large format support",
+        "large format options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Acrylic stands",
+      "patterns": [
+        "Can you fabricate custom acrylic stands?",
+        "Do you make acrylic product holders?",
+        "Tell me about your acrylic displays",
+        "Can you customize acrylic stands?",
+        "Do you sell branded acrylic holders?",
+        "What can you tell me about acrylic stands?",
+        "Do you provide any services for acrylic stands?",
+        "I'm looking for help with acrylic stands",
+        "Can you explain your acrylic stands offerings?",
+        "Tell me about your acrylic stands work"
+      ],
+      "response": "Certainly! We create fabricated acrylic stands tailored for promotional and product displays.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "acrylic",
+        "acrylic stands",
+        "fabricate acrylic stands",
+        "acrylic holders",
+        "custom acrylic",
+        "acrylic display",
+        "acrylic product stands",
+        "acrylic stands info",
+        "acrylic stands services",
+        "acrylic stands help",
+        "acrylic stands support",
+        "acrylic stands options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Business hours",
+      "patterns": [
+        "What are your business hours?",
+        "What can you tell me about business hours?",
+        "Do you provide any services after business hours?",
+        "I'm looking for help with business hours",
+        "What are your work hours?",
+        "Tell me about your business hours"
+      ],
+      "response": "We are open from Saturday to Thursday, 9:00 am to 6:00 pm.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "business hours",
+        "hours",
+        "business hours info",
+        "business hours services",
+        "business hours help",
+        "business hours support",
+        "business hours options",
+        "work hours",
+        "business timing",
+        "work timing"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address",
+        "What is your location?",
+        "I'm looking for help with location",
+        "Can you provide your location?",
+        "Tell me about your location"
+      ],
+      "response": "Our address is Industrial Area 13, Near National Paint, Next to Al Gurg Paints, Sharjah, UAE.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "address",
+        "location",
+        "located",
+        "location",
+        "address",
+        "location info",
+        "location help",
+        "location support"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Contact details",
+      "patterns": [
+         "How can I contact you?",
+         "Can you share your contact details?",
+         "What's your phone number or email?",
+         "How do I get in touch with you?",
+         "Where can I find your contact info?",
+         "How do I reach out to you?"
+      ],
+      "response": "You can call us at +971 55 995 5339 or email us at maliziasign@gmail.com.",
+      "category": "Contact",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "get in touch",
+        "reach out",
+        "contact details",
+        "contact number",
+        "phone number",
+        "email",
+        "contact details info",
+        "contact details services",
+        "contact details help",
+        "contact details support",
+        "contact details options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Website info",
+      "patterns": [
+        "Do you have a website?",
+        "Provide website info?",
+        "What's your website URL?",
+        "Can I visit your website online?",
+        "Where can I find your website?",
+        "I'm looking for help with website info"
+      ],
+      "response": "Yes, our website is www.maliziasign.com",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "website",
+        "website info",
+        "website URL",
+        "website online",
+        "find website",
+        "website info info",
+        "website info services",
+        "website info help",
+        "website info support",
+        "website info options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Gallery",
+      "patterns": [
+        "Can I view your gallery online?",
+        "Show me your work portfolio",
+        "Where can I see your previous projects?",
+        "Do you have a gallery of completed work?",
+        "Can I browse through your design gallery?",
+        "What can you tell me about gallery?",
+        "Do you provide any services for gallery?",
+        "I'm looking for help with gallery",
+        "Can you explain your gallery offerings?",
+        "Tell me about your gallery work"
+      ],
+      "response": "Yes, please visit our Gallery page at www.maliziasign.com/Blog.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "gallery",
+        "view gallery",
+        "work portfolio",
+        "previous projects",
+        "completed work",
+        "design gallery",
+        "gallery info",
+        "gallery services",
+        "gallery help",
+        "gallery support",
+        "gallery options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Request a quote",
+      "patterns": [
+        "How do I get a quote for a project?",
+        "Can I request a price estimate?",
+        "How can I get pricing information?",
+        "What's the process for getting a quotation?",
+        "Can you provide me with a cost estimate?"
+      ],
+      "response": "You can contact us via phone, email, or through the contact form on our website to request a quote.",
+      "category": "Quote",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "quote",
+        "quote request",
+        "price estimate",
+        "pricing information",
+        "request quotation",
+        "cost estimate",
+        "request a info",
+        "request a services",
+        "request a help",
+        "request a support",
+        "request a options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Installation",
+      "patterns": [
+        "Do you assist with installations?",
+        "Do you do installations?",
+        "Do you help with installing signs?",
+        "Can you install the signage for me?",
+        "Is installation service included?",
+        "What can you tell me about installation?",
+        "Do you provide any services for installation?",
+        "I'm looking for help with installation",
+        "Can you explain your installation offerings?",
+        "Tell me about your installation work"
+      ],
+      "response": "Yes, we provide installation services by experienced technicians.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "install",
+        "installation service",
+        "installation",
+        "installing",
+        "setup signs",
+        "install signage",
+        "installation included",
+        "installation info",
+        "installation services",
+        "installation help",
+        "installation support",
+        "installation options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Experience",
+      "patterns": [
+        "What is your experience in the industry?",
+        "How long have you been in business?",
+        "Tell me about your company's background",
+        "What's your track record in signage?",
+        "How experienced is your team?",
+        "What can you tell me about experience?",
+        "Tell me about your experience"
+      ],
+      "response": "We have over 15 years of experience, having completed more than 25,000 successful projects and manufactured over 1 million signs.",
+      "category": "Company Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "experience",
+        "industry experience",
+        "long in business",
+        "company background",
+        "track record",
+        "experienced team",
+        "experience info",
+        "experience services",
+        "experience help",
+        "experience support",
+        "experience options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Clients",
+      "patterns": [
+        "Who are some of your clients?",
+        "Can you name your major clients?",
+        "What companies have you worked with?",
+        "Do you have any notable brand partnerships?",
+        "Which businesses use your services?",
+        "What can you tell me about clients?"
+      ],
+      "response": "We have served over 750 clients, including multinational organizations such as Coca-Cola, Pepsi, and Unilever.",
+      "category": "Company Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "previous customers",
+        "about clients",
+        "some of your clients",
+        "major clients",
+        "companies worked with",
+        "brand partnerships",
+        "businesses use services",
+        "clients info",
+        "clients services",
+        "clients help",
+        "clients support",
+        "clients options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Design",
+      "patterns": [
+        "Do you offer design for signage?",
+        "Do you offer signage design?",
+        "Can you create custom designs?",
+        "Do you have in-house designers?",
+        "Can you help with the creative process?",
+        "What can you tell me about design?",
+        "Do you provide any services for design?",
+        "I'm looking for help with design",
+        "Can you explain your design offerings?",
+        "Tell me about your design work"
+      ],
+      "response": "Yes, we offer professional signage design services tailored to your brand.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "services design",
+        "design for signage",
+        "signage design services",
+        "signage design services",
+        "custom signage designs",
+        "in-house designers",
+        "creative design process",
+        "design info",
+        "design help",
+        "design support",
+        "design options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Permits",
+      "patterns": [
+        "Can you help with signboard approvals or permits?",
+        "Do you handle permit applications?",
+        "Can you assist with government approvals?",
+        "Do you know the local signage regulations?",
+        "Can you help with municipal permits?",
+        "What can you tell me about permits?",
+        "Do you provide any services for permits?",
+        "I'm looking for help with permits",
+        "Can you explain your permits offerings?",
+        "Tell me about your permits work"
+      ],
+      "response": "We can guide you on signboard approvals and help ensure compliance with local regulations.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "permits offering",
+        "permit work",
+        "signboard permits",
+        "signboard approvals",
+        "permit applications",
+        "government approvals",
+        "signage regulations",
+        "municipal permits",
+        "permits info",
+        "permits services",
+        "permits help",
+        "permits support",
+        "permits options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Turnaround time",
+      "patterns": [
+        "What is the turnaround time for a signage project?",
+        "How long does it take to complete a project?",
+        "What's your delivery timeline?",
+        "How quickly can you finish my order?",
+        "What's the production time for signage?",
+        "What can you tell me about turnaround time?",
+        "Do you provide any services for turnaround time?",
+        "I'm looking for help with turnaround time",
+        "Can you explain your turnaround time offerings?",
+        "Tell me about your turnaround time work"
+      ],
+      "response": "Depending on the project scope, it typically takes 3-7 working days. Custom projects may take longer.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "turnaround",
+        "turnaround time",
+        "complete project",
+        "delivery timeline",
+        "finish order",
+        "production time",
+        "turnaround time info",
+        "turnaround time services",
+        "turnaround time help",
+        "turnaround time support",
+        "turnaround time options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Samples",
+      "patterns": [
+        "Can I see samples of your previous work?",
+        "Do you have a portfolio to show?",
+        "Can I view examples of your projects?",
+        "Do you provide work samples?",
+        "Can I see your past signage work?",
+        "What can you tell me about samples?",
+        "Do you provide any services for samples?",
+        "I'm looking for help with samples",
+        "Can you explain your samples offerings?",
+        "Tell me about your samples work"
+      ],
+      "response": "Yes, you can view our work in the Gallery section on our website or request a portfolio.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "samples of previous work",
+        "see previous work",
+        "previous work",
+        "examples",
+        "work samples",
+        "past signage work",
+        "samples info",
+        "samples services",
+        "samples help",
+        "samples support",
+        "samples options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Warranty",
+      "patterns": [
+        "Do you offer warranty on your signage products?",
+        "What's your warranty policy?",
+        "Do you provide guarantees on your work?",
+        "Is there a warranty period for signage?",
+        "What coverage do you offer after installation?",
+        "What can you tell me about warranty?",
+        "Do you provide any services for warranty?",
+        "I'm looking for help with warranty",
+        "Can you explain your warranty?",
+        "Tell me about your warranty"
+      ],
+      "response": "Yes, we provide a warranty depending on the material and type of signage. Please contact us for details.",
+      "category": "Product Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "warranty",
+        "warranty policy",
+        "guarantees",
+        "warranty period",
+        "coverage after installation",
+        "warranty info",
+        "warranty services",
+        "warranty help",
+        "warranty support",
+        "warranty options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Customer types",
+      "patterns": [
+        "What types of businesses do you serve",
+        "What types of businesses do you work with?",
+        "Who are your target customers?",
+        "What industries do you cater to?",
+        "Which sectors use your services?",
+        "What can you tell me about customer types?",
+        "Tell me about your customer types"
+      ],
+      "response": "We work with retail stores, restaurants, corporate offices, vehicle fleets, and more.",
+      "category": "Company Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "sectors",
+        "industries",
+        "business partners",
+        "businesses worked with",
+        "target customers",
+        "industries partners",
+        "customer types info",
+        "customer types services",
+        "customer types help",
+        "customer types support",
+        "customer types options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Operate outside Sharjah",
+      "patterns": [
+        "Do you operate outside Sharjah?",
+        "Do you cover all Emirates?",
+        "Can you work beyond Sharjah?",
+        "Can you do signage in other cities?",
+        "Do you serve other UAE locations?"
+      ],
+      "response": "Yes, we serve all Emirates and can accommodate installations beyond Sharjah.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "UAE locations",
+        "other cities",
+        "operate outside ",
+        "outside sharjah",
+        "beyond sharjah",
+        "operate outside info",
+        "operate outside services",
+        "operate outside help",
+        "operate outside support",
+        "operate outside options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Maintainance",
+      "patterns": [
+        "Do you offer maintainance for signage?",
+        "Can you repair damaged signs?",
+        "Do you provide ongoing support?",
+        "Can you service LED displays?",
+        "Do you handle sign maintainance contracts?",
+        "What can you tell me about maintainance?",
+        "Do you provide any services for maintainance?",
+        "I'm looking for help with maintainance",
+        "Can you explain your maintainance offerings?",
+        "Tell me about your maintainance work"
+      ],
+      "response": "Yes, we offer maintenance and repair services for signage and LED displays.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "maintainance",
+        "repair damaged signs",
+        "ongoing support",
+        "service LED displays",
+        "maintenance contracts",
+        "maintainance info",
+        "maintainance services",
+        "maintainance help",
+        "maintainance support",
+        "maintainance options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Bilingual signage",
+      "patterns": [
+        "Can you produce bilingual signage (Arabic/English)?",
+        "Do you make signs in multiple languages?",
+        "Can you create Arabic and English signs?",
+        "Do you offer multilingual signage options?",
+        "Can you handle local language requirements?",
+        "What can you tell me about bilingual signage?",
+        "Do you provide any services for bilingual signage?",
+        "I'm looking for help with bilingual signage",
+        "Can you explain your bilingual signage offerings?",
+        "Tell me about your bilingual signage work"
+      ],
+      "response": "Absolutely, we specialize in bilingual and multilingual signage for the UAE market.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "bilingual",
+        "arabic",
+        "english",
+        "multiple languages",
+        "multilingual signage",
+        "local language requirements",
+        "bilingual signage info",
+        "bilingual signage services",
+        "bilingual signage help",
+        "bilingual signage support",
+        "bilingual signage options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Urgent orders",
+      "patterns": [
+        "Do you accept urgent or express orders?",
+        "Can you handle rush jobs?",
+        "Do you offer expedited service?",
+        "Can you complete projects quickly?",
+        "Do you have fast-track options?",
+        "What can you tell me about urgent orders?",
+        "Do you provide any services for urgent orders?",
+        "I'm looking for help with urgent orders",
+        "Can you explain your urgent orders offerings?",
+        "Tell me about your urgent orders work"
+      ],
+      "response": "Yes, we offer expedited service for urgent signage needs. Additional charges may apply.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "urgent",
+        "express",
+        "rush jobs",
+        "expedited service",
+        "complete quickly",
+        "fast-track options",
+        "urgent orders info",
+        "urgent orders services",
+        "urgent orders help",
+        "urgent orders support",
+        "urgent orders options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Pricing",
+      "patterns": [
+        "What is your pricing structure?",
+        "How much do your services cost?",
+        "Can you provide pricing information?",
+        "What are your rates for signage?",
+        "How do you calculate project costs?",
+        "What can you tell me about pricing?",
+        "Do you provide any services for pricing?",
+        "I'm looking for help with pricing",
+        "Can you explain your pricing offerings?",
+        "Tell me about your pricing work"
+      ],
+      "response": "Pricing depends on size, materials, complexity, and quantity. Contact us for a custom quote.",
+      "category": "Quote",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "pricing",
+        "pricing structure",
+        "services cost",
+        "pricing information",
+        "rates for signage",
+        "calculate project costs",
+        "pricing info",
+        "pricing services",
+        "pricing help",
+        "pricing support",
+        "pricing options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Consultation",
+      "patterns": [
+        "Can I schedule an appointment for consultation?",
+        "Do you offer free consultations?",
+        "Can we meet to discuss my project?",
+        "Do you provide on-site consultations?",
+        "Can I book a consultation session?",
+        "What can you tell me about consultation?",
+        "Do you provide any services for consultation?",
+        "I'm looking for help with consultation",
+        "Can you explain your consultation offerings?",
+        "Tell me about your consultation work"
+      ],
+      "response": "Yes, you can call or email us to schedule a consultation at our office or your location.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "consultation",
+        "schedule consultation",
+        "appointment for consultation",
+        "free consultations",
+        "meet to discuss",
+        "on-site consultations",
+        "book consultation",
+        "consultation info",
+        "consultation services",
+        "consultation help",
+        "consultation support",
+        "consultation options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Delivery",
+      "patterns": [
+        "Is delivery available for signage products?",
+        "Do you deliver to my location?",
+        "What are your delivery options?",
+        "Can you ship signage products?",
+        "Do you offer transportation services?",
+        "What can you tell me about delivery?",
+        "Do you provide any services for delivery?",
+        "I'm looking for help with delivery",
+        "Can you explain your delivery offerings?",
+        "Tell me about your delivery work"
+      ],
+      "response": "Yes, we provide delivery services across the UAE. Delivery fees may vary based on location.",
+      "category": "Services",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "delivery",
+        "deliver to location",
+        "delivery options",
+        "ship signage",
+        "transportation services",
+        "delivery info",
+        "delivery services",
+        "delivery help",
+        "delivery support",
+        "delivery options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Testimonials",
+      "patterns": [
+        "Do you have customer testimonials?",
+        "Can I read client reviews?",
+        "Do you have customer feedback?",
+        "Can you provide references?",
+        "Do you have client success stories?",
+        "What can you tell me about testimonials?",
+        "Do you provide any services for testimonials?",
+        "I'm looking for help with testimonials",
+        "Can you explain your testimonials offerings?",
+        "Tell me about your testimonials work"
+      ],
+      "response": "Yes, our satisfied clients often share testimonials, and we'd be happy to provide them on request.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "testimonials",
+        "customer testimonials",
+        "client reviews",
+        "customer feedback",
+        "references",
+        "client success stories",
+        "testimonials info",
+        "testimonials services",
+        "testimonials help",
+        "testimonials support",
+        "testimonials options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Order Process",
+      "patterns": [
+        "What is the process to place an order?",
+        "How do I start an order with you?",
+        "What are the steps to order signage?",
+        "Can you explain your ordering procedure?",
+        "How does the order process work?",
+        "What can you tell me about order process?",
+        "Do you provide any services for order process?",
+        "I'm looking for help with order process",
+        "Can you explain your order process offerings?",
+        "Tell me about your order process work"
+      ],
+      "response": "To place an order, simply contact us through our phone number or email, or fill out the contact form on our website. Our team will guide you through the process.",
+      "category": "Order Process",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "place order",
+        "ordering",
+        "procedure for order",
+        "place order",
+        "order process",
+        "place an order",
+        "order process info",
+        "order process services",
+        "order process help",
+        "order process support",
+        "order process options"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Custom Design",
+      "patterns": [
+        "Do you offer custom made signage?",
+        "Can you create custom designs for my business?",
+        "Do you provide personalized signage solutions?",
+        "Can you design something unique for my brand?",
+        "Do you make custom tailored signs?"
+      ],
+      "response": "Yes, we provide fully custom designs tailored to your brand's needs. Our design team will work closely with you to create the perfect signage.",
+      "category": "Custom Design",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "unique",
+        "tailored signs",
+        "custom made signage",
+        "signane custom designs",
+        "personalized signage",
+        "unique designs for signage",
+        "custom tailored signagae",
+        "custom signage",
+        "signage tailored designs"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Proofs",
+      "patterns": [
+        "Can I get a digital proof before production?",
+        "Do you provide design previews before manufacturing?",
+        "Can I see what my sign will look like before you make it?",
+        "Do you show proofs for approval?",
+        "Can I review the design before final production?"
+      ],
+      "response": "Yes, we offer digital proofs for approval before starting production to ensure that the design meets your expectations.",
+      "category": "Proof Approval",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "proofs",
+        "review production",
+        "digital proof",
+        "design preview",
+        "preview design",
+        "review design",
+        "proof approval",
+        "design mockup",
+        "visual proof",
+        "sign preview"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Weatherproof",
+      "patterns": [
+        "Are your signage materials weather-resistant?",
+        "Can your signs withstand outdoor conditions?",
+        "Do you use waterproof materials?",
+        "Are your signs suitable for harsh weather?",
+        "Do your materials resist sun and rain damage?"
+      ],
+      "response": "Yes, we use high-quality weatherproof materials suitable for both indoor and outdoor environments, ensuring durability in all conditions.",
+      "category": "Product Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "weather-resistant",
+        "weatherproof",
+        "outdoor conditions",
+        "waterproof",
+        "harsh weather",
+        "sun resistant",
+        "rain resistant",
+        "durable materials",
+        "weather durable",
+        "outdoor suitable"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Quote Process",
+      "patterns": [
+        "When can we hear back?",
+        "How long does it take to get a response from you?",
+        "What's your response time for quotes?",
+        "How quickly do you provide estimates?",
+        "When will I receive my quotation?"
+      ],
+      "response": "Typically, we respond with a quote within 1-2 business days after receiving your inquiry and project details.",
+      "category": "Quote",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "provide estimate",
+        "receive my quotation",
+        "hear back",
+        "response time",
+        "quote response",
+        "estimate time",
+        "quotation timing",
+        "response speed",
+        "quote turnaround",
+        "how long, response",
+        "reply time"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Eco-friendly",
+      "patterns": [
+        "Do you offer eco-friendly signage options?",
+        "Do you use sustainable materials?",
+        "Are your signs environmentally friendly?",
+        "Do you have green signage solutions?",
+        "Can you make signs with recyclable materials?"
+      ],
+      "response": "Yes, we provide eco-friendly signage options made from recyclable materials. Let us know your preferences, and we will help you choose the best solution.",
+      "category": "Eco-friendly",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "eco-friendly",
+        "sustainable",
+        "environmentally friendly",
+        "green solutions",
+        "recyclable materials",
+        "eco signage",
+        "sustainable materials",
+        "green signage",
+        "environment friendly",
+        "recyclable"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Permits",
+      "patterns": [
+        "Can you help with sign permits for my project?",
+        "Do you assist with municipal approvals?",
+        "Can you handle government permits for signage?",
+        "Do you help with licensing requirements?",
+        "Can you guide me through permit applications?"
+      ],
+      "response": "Yes, we can assist you with obtaining the necessary permits for your signage project, ensuring compliance with local regulations.",
+      "category": "Permits",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "sign permits",
+        "municipal approvals",
+        "government permits",
+        "licensing requirements",
+        "permit applications",
+        "regulatory compliance",
+        "permit assistance",
+        "permit help"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "International Services",
+      "patterns": [
+        "Do you work internationally?",
+        "Do you handle international orders?",
+        "Do you assist foreign clients?",
+        "Can you take orders from other countries?",
+        "Do you ship overseas?"
+      ],
+      "response": "We primarily serve the UAE, but we can help coordinate installation services for international clients through our trusted partners.",
+      "category": "International",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "international",
+        "internationally",
+        "foreign clients",
+        "other countries",
+        "overseas",
+        "global services",
+        "international orders",
+        "foreign orders",
+        "cross-border",
+        "worldwide"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Maintain Signage",
+      "patterns": [
+        "How do I maintain my signage?",
+        "What maintenance is required for signs?",
+        "How do I keep my signs in good condition?",
+        "What care instructions do you provide?",
+        "How often should signs be maintained?"
+      ],
+      "response": "We recommend regular cleaning and maintenance to ensure your signage stays in top condition. If repairs are needed, we offer maintenance services to keep your signage functional.",
+      "category": "Maintenance",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "signs be maintained",
+        "maintenance for signage",
+        "maintain signage",
+        "care instructions",
+        "sign care",
+        "signage maintenance required",
+        "good condition",
+        "sign maintenance"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Satisfaction Guarantee",
+      "patterns": [
+        "Do you offer a satisfaction guarantee?",
+        "What if I'm not happy with the final product?",
+        "Do you have a quality guarantee?",
+        "What's your satisfaction policy?",
+        "Do you guarantee your work quality?"
+      ],
+      "response": "Yes, we offer a satisfaction guarantee for our signage products. If you're not satisfied with the final product, we will work with you to make it right.",
+      "category": "Warranty",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "satisfaction guarantee",
+        "not happy",
+        "quality guarantee",
+        "satisfaction policy",
+        "work quality",
+        "satisfaction assurance",
+        "quality promise"
+      ],
+      "priority": 5
+    },
+    {
+      "intent": "Home",
+      "patterns": [
+        "Can I view your home page?",
+        "Take me to your main website?",
+        "Show me your homepage?",
+        "Where is your main page?",
+        "Can I see your website home?"
+      ],
+      "response": "Yes, please visit our Home page at www.maliziasign.com.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "home page",
+        "homepage",
+        "main website",
+        "main page",
+        "website home",
+        "home site",
+        "main site",
+        "website main",
+        "home web",
+        "primary page"
+      ],
+      "priority": 5,
+      "redirect_url": "www.maliziasign.com/home"
+    },
+    {
+      "intent": "Clients Page",
+      "patterns": [
+        "Can I view your clients list online?",
+        "Do you have Clients portfolio?",
+        "Show me your client portfolio?",
+        "Can I see clients page",
+        "Where can I find your client list?"
+      ],
+      "response": "Yes, please visit our Clients page at www.maliziasign.com/Clients.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "clients list",
+        "clients portfolio",
+        "client list",
+        "customer list",
+        "clients page",
+        "client roster",
+        "customer portfolio"
+      ],
+      "priority": 5,
+      "redirect_url": "www.maliziasign.com/Clients"
+    },
+    {
+      "intent": "Services Page",
+      "patterns": [
+        "Can I view your services online?",
+        "Show me what services you offer?",
+        "Where can I see all your services?",
+        "Take me to your services page?",
+        "What's on your services menu?"
+      ],
+      "response": "Yes, please visit our Services page at www.maliziasign.com/Services.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "services page",
+        "services online",
+        "services menu",
+        "service list",
+        "services catalog"
+      ],
+      "priority": 5,
+      "redirect_url": "www.maliziasign.com/Services"
+    },
+    {
+      "intent": "Projects Page",
+      "patterns": [
+        "Can I view your project portfolio?",
+        "Show me examples of your work?",
+        "Where can I see your completed projects?",
+        "Can I browse your project gallery?",
+        "Show me your past projects?"
+      ],
+      "response": "Yes, please visit our Projects page at www.maliziasign.com/Projects.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "project portfolio",
+        "project gallery",
+        "past projects",
+        "project showcase",
+        "project page",
+        "work portfolio"
+      ],
+      "priority": 5,
+      "redirect_url": "www.maliziasign.com/Projects"
+    },
+    {
+      "intent": "Careers Page",
+      "patterns": [
+        "Are you hiring currently?",
+        "Do you have job openings?",
+        "Can I see career opportunities?",
+        "Are there positions available?",
+        "Do you have any vacancies?"
+      ],
+      "response": "Please visit our Careers page at www.maliziasign.com/Careers for openings.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "hiring",
+        "job openings",
+        "career opportunities",
+        "positions available",
+        "vacancies",
+        "careers",
+        "jobs",
+        "employment",
+        "job positions",
+        "work opportunities"
+      ],
+      "priority": 5,
+      "redirect_url": "www.maliziasign.com/Careers"
+    },
+    {
+      "intent": "About Us Page",
+      "patterns": [
+        "Can I learn more about your company?",
+        "Tell me about your business background?",
+        "Where can I read about your company?",
+        "Show me your company information?",
+        "Can I see your about page?"
+      ],
+      "response": "Yes, please visit our About Us page at www.maliziasign.com/About.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "about company",
+        "company background",
+        "company information",
+        "about page",
+        "about us",
+        "company details",
+        "business background",
+        "company story",
+        "learn about",
+        "company info"
+      ],
+      "priority": 5,
+      "redirect_url": "www.maliziasign.com/About"
+    },
+    {
+      "intent": "Contact Us Page",
+      "patterns": [
+        "Can I visit your contact page?",
+        "Do you have a Contact Us page?",
+        "How do I reach your contact page?",
+        "Where is your contact information?",
+        "Show me your contact page?"
+      ],
+      "response": "Yes, please visit our Contact Us page at www.maliziasign.com/Contact.",
+      "category": "General Info",
+      "flags": [
+        "BIZ",
+        "VISIBLE"
+      ],
+      "keywords": [
+        "contact details page",
+        "contact page",
+        "contact us",
+        "contact form",
+        "contact section",
+        "contact info",
+        "how to contact"
+      ],
+      "priority": 5,
+      "redirect_url": "www.maliziasign.com/Contact"
+    }
+  ]
+}
