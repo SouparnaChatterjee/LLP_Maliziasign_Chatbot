@@ -1,4 +1,7 @@
-numpy==1.21.6
+numpy==1.24.4
 opencv-python==4.11.0.86
 Pillow==9.5.0
 typing-extensions==4.7.1
+git add requirements.txt
+git commit -m "Add requirements.txt"
+git push
