@@ -87,3 +87,17 @@ if __name__ == "__main__":
         else:
             print("Chatbot: I'm sorry, I didn't understand that. Could you rephrase?")
 
+
+def process_message(user_input: str) -> str:
+    # Load intents
+    intents = load_intents("malizia_final_corrected_dataset.json")
+    
+    # Get matching intent
+    matched_intent = match_intent(user_input, intents)
+    
+    # Return response
+    if matched_intent:
+        return matched_intent['response']
+    else:
+        return "I'm sorry, I didn't understand that. Could you rephrase?"
+
